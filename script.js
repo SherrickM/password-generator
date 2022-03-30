@@ -109,7 +109,7 @@ function generatePassword() {
   console.log(upperCase)
   var special = window.confirm('Would you like special characters')
   console.log(special)
-  var numbers = window.confirm('Would you like special numbers')
+  var numbers = window.confirm('Would you like numbers')
   console.log(numbers)
 
   if (lowerCase === true) {
